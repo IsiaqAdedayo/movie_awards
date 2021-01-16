@@ -1,9 +1,6 @@
-import { MOVIE_LOADING, MOVIE_SUCCESS, MOVIE_ERROR, MOVIE_NOMINATIONS,REMOVE_NOMINATION} from './movieActions';
+import {  MOVIE_NOMINATIONS,REMOVE_NOMINATION} from './movieActions';
 
 const initialState =  {
-    loading: false,
-    movies: [],
-    error: '',
     nominations: [],
     removeNomination: [],
     
@@ -11,21 +8,6 @@ const initialState =  {
 
 const movieReducer = (state = initialState, action) => {
     switch(action.type){
-        case MOVIE_LOADING:
-            return {
-                ...state,
-                loading: true
-            }
-        case MOVIE_SUCCESS:
-            return {
-                ...state,
-                movies: action.payload
-            }
-        case MOVIE_ERROR:
-            return {
-                ...state,
-                error: action.payload
-            }
         case MOVIE_NOMINATIONS:
             return{
                 ...state,
