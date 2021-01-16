@@ -1,0 +1,124 @@
+.body_right{
+    background-color: #ececf1;
+    border-radius: 15px;
+    width: 49.5%;
+    min-height: 98vh;
+    margin-top: 1%;
+    color: #2d2b36;
+    box-shadow: 0 0 2em #646363;
+}
+
+
+.body_right_container{
+    padding: 1% 4%;
+    color: #2d2b36;
+}
+
+.body_right_container > div > p {
+    font-size: smaller;
+    margin-top: -11px;
+}
+
+.movie_card{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    margin-top: 0.1%;
+    border-radius: 20px;
+    box-shadow: 0 1em 3em #8b8a8a;
+    width: 32%;
+}
+
+.movie_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movie_picture{
+    width: 94%;
+    height: 38vh;
+    margin-top: 3%;
+    margin-left: 2%;
+    border: 2px solid #02c0c0;
+    margin-bottom: -8%;
+    border-radius: 5px;
+}
+
+.movie_picture > img{
+    width: 100%;
+    height: 38vh;
+    object-fit: contain;
+}
+
+.movie_picture > img:hover{
+    transform: scale(1.1)
+}
+
+.movieTitle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 90%;
+}
+
+.movie_details > p {
+    margin-top: -5%;
+    font-size: 100%;
+    margin-left: 43%;
+}
+
+
+.movie_icon{
+    width: 70%;
+    min-height: 18%;
+    border-radius: 10px;
+    background-color:  #02c0c0;
+    box-shadow: 0 0 1em #02c0c0;
+    margin-left: 14%;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.movie_icon > p{
+    margin-left: 7%;
+    margin-top: 17%;
+}
+
+.movie_icon:hover{
+    background-color:  #037777;
+    box-shadow: 0 0 1em #037777;
+}
+
+
+.submitBtn{
+    width: 25%;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #02c0c0;
+    box-shadow: 0 0 1em #02c0c0;
+    color: #0c052c;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    line-height: 1.1;
+    margin-left: 37%;
+    margin-top: 10%;
+    outline: none;
+}
+
+  
+  .submitBtn:hover {
+    background-color: #058383;
+    box-shadow: 0 0 1em #058383;
+    opacity: 1;
+    cursor: pointer;
+}
+  
+ .submitBtn:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

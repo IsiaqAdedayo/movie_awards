@@ -1,0 +1,96 @@
+.body_left{
+    background-color: #0c052c;
+    width: 50%;
+    min-height: 100vh;
+}
+
+.body_left_container{
+    padding: 10px;
+    padding-left: 100px;
+    color: #e6e0c8;
+}
+
+.introDiv > p{
+    font-size: 1vw;
+}
+
+.intro_input  input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    flex: 1;
+    font-size: large;
+    color: #e6e0c8;
+}
+
+.intro_input  input, i{
+    margin-left: 35px;
+    margin-top: 18px;
+}
+
+.intro_input{
+    width: 30vw;
+    background-color :#1f1b35;
+    height: 9vh;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+.awards_icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    width: 75%;
+}
+
+.first_icon,.second_icon,.third_icon{
+    width: 100px;
+    margin-top: 20px; 
+    height: 85px;
+    border-radius: 20px;
+}
+
+.first_icon > i {
+    margin-left: 23%;
+    color: #ffd700;
+}
+
+.second_icon > i,.third_icon > i {
+    margin-left: 26%;
+    color: #ffd700;
+}
+
+.awards_icon > div > p{
+    margin-left: 14px;
+    font-size: smaller;
+}
+
+.first_icon{
+    background-color: #f822d4;
+}
+.second_icon{
+    background-color: #00ffff;
+}
+.third_icon{
+    background-color: #8c2fb8;
+}
+
+.results {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    z-index: 20;
+}
+  
+.results li {
+    list-style: none;
+}
+
+.loader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 30%;
+    color: #e6e0c8;
+}

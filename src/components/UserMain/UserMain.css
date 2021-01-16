@@ -1,0 +1,50 @@
+.return{
+    cursor: pointer;
+}
+
+.return > p > i{
+    color: #02c0c0;
+}
+
+.user_profile{
+    display: flex;
+}
+
+.userPicture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 25px;
+    border: 8px solid #02c0c0;
+    margin-bottom: 15px;
+}
+
+.userEmail,.dateJoined{
+    width: 15.5vw;
+    background-color :#b5b3be;
+    line-height: 5vh;
+    border-radius: 20px;
+}
+
+.userEmail{
+    font-size: small;
+    font-weight: bold;
+}
+
+.dateJoined{
+    width: 11vw;
+    background-color : #f7a8ea;
+}
+
+.dateJoined p{
+    margin-left: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.userDetails > h2 > span{
+    font-weight: lighter;
+    color: #02c0c0;
+}

@@ -1,0 +1,6 @@
+.body{
+    display: flex;
+    background-color: #0c052c;
+    width: 100%;
+    min-height: 100vh;
+}
